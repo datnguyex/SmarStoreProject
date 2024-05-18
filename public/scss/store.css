@@ -1,0 +1,30 @@
+.auth-form__group {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.auth-form__group label {
+  min-width: 60px;
+}
+.auth-form__group .check__sex {
+  display: flex;
+}
+.auth-form__group .check__sex .check {
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+  line-height: 10px;
+}
+.auth-form__group .check__sex .check input {
+  margin: 0 0 0 5px;
+}
+.auth-form__group .check {
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+  line-height: 10px;
+  min-width: 60px;
+}
+.auth-form__group .check option {
+  min-width: 50px;
+}/*# sourceMappingURL=store.css.map */

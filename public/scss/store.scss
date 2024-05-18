@@ -1,0 +1,35 @@
+@mixin select {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    line-height: 10px;
+}
+.auth-form__group {
+    display: flex; 
+    align-items: center;
+    margin: 10px 0;
+
+    label {
+        min-width: 60px;
+    }
+
+    .check__sex {
+        display: flex;
+
+        .check {
+            @include select();
+
+            input {
+                margin: 0 0 0 5px;
+            }
+        }
+    }
+
+    .check {
+        @include select();
+        min-width: 60px;
+        option {
+            min-width: 50px;
+        }
+    }
+}
